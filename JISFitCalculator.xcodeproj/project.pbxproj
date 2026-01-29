@@ -13,6 +13,7 @@
 		1A0000000000000000000004 /* FitDiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000014 /* FitDiagramView.swift */; };
 		1A0000000000000000000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000015 /* Assets.xcassets */; };
 		1A0000000000000000000006 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000017 /* Preview Assets.xcassets */; };
+		1A0000000000000000000020 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000021 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1A0000000000000000000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A0000000000000000000016 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
 		1A0000000000000000000017 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A0000000000000000000021 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			children = (
 				1A0000000000000000000011 /* JISFitCalculatorApp.swift */,
 				1A0000000000000000000012 /* ContentView.swift */,
+				1A0000000000000000000021 /* LoadingView.swift */,
 				1A0000000000000000000013 /* ToleranceData.swift */,
 				1A0000000000000000000014 /* FitDiagramView.swift */,
 				1A0000000000000000000015 /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 			files = (
 				1A0000000000000000000002 /* ContentView.swift in Sources */,
 				1A0000000000000000000001 /* JISFitCalculatorApp.swift in Sources */,
+				1A0000000000000000000020 /* LoadingView.swift in Sources */,
 				1A0000000000000000000003 /* ToleranceData.swift in Sources */,
 				1A0000000000000000000004 /* FitDiagramView.swift in Sources */,
 			);
